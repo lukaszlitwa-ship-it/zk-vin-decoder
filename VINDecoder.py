@@ -127,7 +127,7 @@ def dekoduj_vin_rrc(vin):
 # Natywne Logo wczytywane bezpośrednio z plików aplikacji
 col1, col2, col3 = st.columns([2, 1, 2])
 with col2:
-    st.image("logo.png", use_container_width=True)
+    st.image("ZK_01.png", use_container_width=True)
 
 st.markdown("<h1>VIN Decoder</h1>", unsafe_allow_html=True)
 st.markdown("<div class='subtitle'>Select vehicle brand and enter the 17-character VIN.</div>", unsafe_allow_html=True)
