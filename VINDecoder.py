@@ -124,14 +124,10 @@ def dekoduj_vin_rrc(vin):
 
 # --- 3. UI ---
 
-# Oficjalne Logo ZK Classics wyśrodkowane na samej górze
-st.markdown("""
-    <div style='text-align: center; margin-bottom: 15px; padding-top: 10px;'>
-        <a href='http://zkclassics.com/' target='_blank'>
-            <img src='https://vindecoder.zkclassics.com/logo.png' style='max-width: 100px; height: auto;'>
-        </a>
-    </div>
-""", unsafe_allow_html=True)
+# Natywne Logo wczytywane bezpośrednio z plików aplikacji
+col1, col2, col3 = st.columns([2, 1, 2])
+with col2:
+    st.image("logo.png", use_container_width=True)
 
 st.markdown("<h1>VIN Decoder</h1>", unsafe_allow_html=True)
 st.markdown("<div class='subtitle'>Select vehicle brand and enter the 17-character VIN.</div>", unsafe_allow_html=True)
