@@ -73,7 +73,7 @@ def dekoduj_vin_saab(vin):
     silniki = {
         'B': 'B234 (2.3L 16v - Naturally Aspirated)', 'D': 'B202 (2.0L 16v - Naturally Aspirated)', 'E': 'B212 (2.1L 16v - Naturally Aspirated)',
         'J': 'B201 (2.0L 8v - Naturally Aspirated)', 'L': 'B202 (2.0L 16v Turbo & Intercooler)', 'M': 'B234 (2.3L Turbo)',
-        'N': 'B204 (2.0L 16v Turbo with balance shafts)', 'S': 'B201/B202 (Turbo 8v / LPT 16v)', 'V': '2.5L V6'
+        'N': 'B204 (2.0L 16v Turbo with balance shafts)', 'S': 'B201/B202 (Turbo 8v / LPT 16v)', 'V': '2.5L V6', "T": "B202R - 2.0 FPT, 204bhp",
     }
     roczniki = {'G': '1986', 'H': '1987', 'J': '1988', 'K': '1989', 'L': '1990', 'M': '1991', 'N': '1992', 'P': '1993', 'R': '1994', 'S': '1995', 'T': '1996'}
     fabryki = {'1': 'Trollhättan, Sweden (Line A)', '2': 'Trollhättan, Sweden (Line B)', '3': 'Arlöv, Sweden', '5': 'Malmö, Sweden', '6': 'Nystad, Finland', '7': 'Nystad, Finland', '8': 'Nystad, Finland (For 9000)', '9': 'Trollhättan, Sweden (Line C)'}
