@@ -128,7 +128,7 @@ def dekoduj_vin_rrc(vin):
 st.markdown("""
     <div style='text-align: center; margin-bottom: 15px; padding-top: 10px;'>
         <a href='http://zkclassics.com/' target='_blank'>
-            <img src='https://vin.zkclassics.com/logo.png' style='max-width: 100px; height: auto;'>
+            <img src='https://vindecoder.zkclassics.com/logo.png' style='max-width: 100px; height: auto;'>
         </a>
     </div>
 """, unsafe_allow_html=True)
