@@ -14,6 +14,10 @@ st.markdown("""
     .subtitle { text-align: center; color: #5f6368; font-size: 14px; margin-bottom: 40px; }
     .stRadio label { color: #202124 !important; }
     
+    /* TUTAJ WKLEJASZ TE DWIE LINIJKI: */
+    .stRadio p { color: #202124 !important; }
+    div[role="radiogroup"] p { color: #202124 !important; }
+    
     /* Cienka, widoczna ramka dla pola wpisywania VIN */
     .stTextInput input {
         border: 1px solid #dadce0 !important;
